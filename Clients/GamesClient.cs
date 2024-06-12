@@ -35,7 +35,6 @@ public class GamesClient
     ];
 
 
-    private readonly Genre[] genres = new GenresClient().GetGenresList();
 
     public GameSummary[] GetGamesList() => inventory.ToArray();
     
