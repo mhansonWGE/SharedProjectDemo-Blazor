@@ -21,11 +21,15 @@
 NavLink[b-7r57v3frez]{
     color:white;
 }
-.nav-item:hover[b-7r57v3frez] {
+.navLink[b-7r57v3frez]{
+    text-decoration: none;
+    color: red;
+}
+.navLink[b-7r57v3frez] {
     color: red;
     text-decoration: none;
 }
-.nav-item:focus[b-7r57v3frez] {
+.navLink[b-7r57v3frez] {
     outline: none;
     color: red;
 }
