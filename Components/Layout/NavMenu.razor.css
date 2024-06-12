@@ -1,0 +1,10 @@
+
+
+.navLink{
+    color:white;
+    text-decoration: none;
+}
+
+.navLink:hover{
+    color:red;
+}

@@ -17,3 +17,14 @@
         right: 0.75rem;
         top: 0.5rem;
     }
+/* _content/GameStore.Frontend/Components/Layout/NavMenu.razor.rz.scp.css */
+
+
+.navLink[b-4c99slcec6]{
+    color:white;
+    text-decoration: none;
+}
+
+.navLink:hover[b-4c99slcec6]{
+    color:red;
+}
