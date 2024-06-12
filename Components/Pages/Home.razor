@@ -32,12 +32,12 @@ else
         @foreach (var game in games)
         {
             <tr>
+                <td>@game.ID</td>
 
                 <td>@game.Name</td>
                 <td>@game.Genre</td>
-                <td class="text-end">$@game.Price</td>
-                <td>@game.ID</td>
-                <td>@game.ReleaseDate</td>
+                <td >$@game.Price</td>
+                <td class="text-end">@game.ReleaseDate</td>
             </tr>
         }
 

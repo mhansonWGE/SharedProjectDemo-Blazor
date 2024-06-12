@@ -16,3 +16,15 @@
         right: 0.75rem;
         top: 0.5rem;
     }
+
+NavLink{
+    color:white;
+}
+.nav-item:hover {
+    color: red;
+    text-decoration: none;
+}
+.nav-item:focus {
+    outline: none;
+    color: red;
+}

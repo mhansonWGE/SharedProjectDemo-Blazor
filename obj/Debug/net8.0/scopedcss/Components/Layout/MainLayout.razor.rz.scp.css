@@ -16,3 +16,15 @@
         right: 0.75rem;
         top: 0.5rem;
     }
+
+NavLink[b-7r57v3frez]{
+    color:white;
+}
+.nav-item:hover[b-7r57v3frez] {
+    color: red;
+    text-decoration: none;
+}
+.nav-item:focus[b-7r57v3frez] {
+    outline: none;
+    color: red;
+}
