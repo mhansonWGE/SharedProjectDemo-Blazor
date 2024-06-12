@@ -1,0 +1,58 @@
+﻿@page "/"
+@using GameStore.Frontend.Clients
+@using GameStore.Frontend.Models
+
+
+<PageTitle>Home</PageTitle>
+@if (games == null)
+{
+    <p><em>loading games list....</em></p>
+}
+else
+{
+    <table class="table table-striped" style="margin-left:auto;margin-right:auto;margin-top:200px;width: 80%;">
+        <thead class="table-dark">
+        <th>
+            Id
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Genre
+        </th>
+        <th class="text-end">
+            Price
+        </th>
+        <th>
+            Release Date
+        </th>
+        </thead>
+        <tbody>
+        @foreach (var game in games)
+        {
+            <tr>
+
+                <td>@game.Name</td>
+                <td>@game.Genre</td>
+                <td class="text-end">$@game.Price</td>
+                <td>@game.ID</td>
+                <td>@game.ReleaseDate</td>
+            </tr>
+        }
+
+        </tbody>
+    </table>
+}
+
+@code{
+
+    private GamesClient client = new();
+
+    private GameSummary[]? games;
+
+    protected override void OnInitialized()
+    {
+        games = client.GetGamesList();
+    }
+}
