@@ -4,7 +4,7 @@ namespace GameStore.Frontend.Clients;
 
 public class GenresClient
 {
-    private readonly Genre[] _genres =
+    private Genre[] _genres =
     [
         new()
         {

@@ -2,6 +2,8 @@ using GameStore.Frontend.Models;
 
 namespace GameStore.Frontend.Clients;
 
+
+
 public class GamesClient
 {
     private List<GameSummary> inventory =
@@ -39,14 +41,27 @@ public class GamesClient
 
     public GameSummary[] GetGamesList() => inventory.ToArray();
     
+    
+    
     public void AddGame(GameDetails game)
     {
-        var gameSummary = new GameSummary()
+        if(game == null)
+            Console.WriteLine("Game param turned up null");
+        if(game.GenreID == null)
+            Console.WriteLine("Game genre ID param turned up null");
+        
+        // ArgumentException.ThrowIfNullOrWhiteSpace(game.GenreID); //if game.genreid is null throw an exception
+        var genre = genres.Single(genre => genre.Id == int.Parse(game.GenreID));
+        
+        var newGameSummary = new GameSummary()
         {
             ID = inventory.Count+1,
             Name = game.Name,
-            Genre = game.GenreID
-
+            Genre = genre.genreName,
+            Price = game.Price,
+            ReleaseDate = game.ReleaseDate
         };
+        
+        inventory.Add(newGameSummary);
     }
 }

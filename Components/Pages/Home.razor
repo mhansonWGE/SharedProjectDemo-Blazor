@@ -1,9 +1,10 @@
 ﻿@page "/"
-@using GameStore.Frontend.Clients
-@using GameStore.Frontend.Models
-
+@inject GamesClient Client
 
 <PageTitle>Home</PageTitle>
+
+
+
 @if (games == null)
 {
     <p><em>loading games list....</em></p>
@@ -48,12 +49,12 @@ else
 
 @code{
 
-    private GamesClient client = new();
+    // private GamesClient client = new();
 
     private GameSummary[]? games;
 
     protected override void OnInitialized()
     {
-        games = client.GetGamesList();
+        games = Client.GetGamesList();
     }
 }

@@ -1,10 +1,24 @@
 
 
-.navLink{
-    color:white;
+/*.navLink{*/
+/*    color:white;*/
+/*    text-decoration: none;*/
+/*    */
+/*}*/
+
+/*.navLink:hover{*/
+/*    color: #9ba29c;*/
+/*    transform:scale(3);*/
+/*}*/
+
+.navLink {
+    color: white;
     text-decoration: none;
+    transition: 500ms;
+    display: inline-block; /* added this line */
 }
 
-.navLink:hover{
-    color:red;
+.navLink:hover {
+    color: #a52cdc;
+    transform: scale(1.1);
 }
