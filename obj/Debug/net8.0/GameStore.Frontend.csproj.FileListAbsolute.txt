@@ -56,3 +56,4 @@ C:\Users\mhanson\source\repos\ForkedGameStore\obj\Debug\net8.0\refint\GameStore.
 C:\Users\mhanson\source\repos\ForkedGameStore\obj\Debug\net8.0\GameStore.Frontend.pdb
 C:\Users\mhanson\source\repos\ForkedGameStore\obj\Debug\net8.0\GameStore.Frontend.genruntimeconfig.cache
 C:\Users\mhanson\source\repos\ForkedGameStore\obj\Debug\net8.0\ref\GameStore.Frontend.dll
+C:\Users\mhanson\source\repos\ForkedGameStore\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css

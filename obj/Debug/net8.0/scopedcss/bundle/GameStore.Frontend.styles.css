@@ -33,3 +33,28 @@ NavLink[b-7r57v3frez]{
     outline: none;
     color: red;
 }
+/* _content/GameStore.Frontend/Components/Layout/NavMenu.razor.rz.scp.css */
+
+
+/*.navLink{*/
+/*    color:white;*/
+/*    text-decoration: none;*/
+/*    */
+/*}*/
+
+/*.navLink:hover{*/
+/*    color: #9ba29c;*/
+/*    transform:scale(3);*/
+/*}*/
+
+.navLink[b-4c99slcec6] {
+    color: white;
+    text-decoration: none;
+    transition: 500ms;
+    display: inline-block; /* added this line */
+}
+
+.navLink:hover[b-4c99slcec6] {
+    color: #a52cdc;
+    transform: scale(1.1);
+}
