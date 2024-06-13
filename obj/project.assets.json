@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mhanson\\source\\repos\\blazorTut\\GameStore\\GameStore.Frontend\\GameStore.Frontend.csproj",
+      "projectUniqueName": "C:\\Users\\mhanson\\source\\repos\\ForkedGameStore\\GameStore.Frontend.csproj",
       "projectName": "GameStore.Frontend",
-      "projectPath": "C:\\Users\\mhanson\\source\\repos\\blazorTut\\GameStore\\GameStore.Frontend\\GameStore.Frontend.csproj",
+      "projectPath": "C:\\Users\\mhanson\\source\\repos\\ForkedGameStore\\GameStore.Frontend.csproj",
       "packagesPath": "C:\\Users\\mhanson\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mhanson\\source\\repos\\blazorTut\\GameStore\\GameStore.Frontend\\obj\\",
+      "outputPath": "C:\\Users\\mhanson\\source\\repos\\ForkedGameStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

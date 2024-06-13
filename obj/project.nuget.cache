@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EGM+GV7nfHwUsD4ZN/W5OdFIiw5KdIB8BH6RGdgwiJ4T8vaNGrEDeAG/Fk7NlIqRMhXRZabhRfty3xyMkVTmFg==",
+  "dgSpecHash": "RwDeSLD3uJwfwLdXihqWRYOBlij93IhzuOE42cHEls66z2k7mmpqaRHzgsSrFWiBlhz6yWxId6yvJMZwPyb6oA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mhanson\\source\\repos\\blazorTut\\GameStore\\GameStore.Frontend\\GameStore.Frontend.csproj",
+  "projectFilePath": "C:\\Users\\mhanson\\source\\repos\\ForkedGameStore\\GameStore.Frontend.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
